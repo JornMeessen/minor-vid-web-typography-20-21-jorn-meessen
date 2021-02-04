@@ -8,8 +8,11 @@ Feel free to adjust the defaults to your needs.
 #closed-captions p {
 	opacity: 0;
 	transition: .05s;
+	width: 83%;
 	position: absolute;
 	color: white;
+	font-size: 1.3em;
+	margin: 3em 5em 0em;
 }
 
 #closed-captions .on {
@@ -20,19 +23,26 @@ Feel free to adjust the defaults to your needs.
 	opacity: 0;
 }
 .voice1 {
-	font-family: brenner mono;
+	font-family: "Brenner Mono"; 
+	font-style: normal;
+	text-align: right;
 }
 
 .voice2 {
-	font-family: brenner;
+	font-family: Brenner Sans;
 }
 
 .voice3 {
-	font-family: brenner sans condensed;
+	font-family: Brenner sans condensed;
 }
 
 .voice4 {
-	font-family: brenner sans;
+	font-family: Brenner sans;
+}
+
+iframe{
+	margin: 0 auto;
+    display: block;
 }
 
 iframe{
@@ -44,6 +54,34 @@ body{
 	background-color: black;
 }
 
+
+/* **********************************************
+Sounds.
+	You can style the whole body, or you can 
+	style anything within the body the moment
+	a sound starts.
+*********************************************  */
+
+/* The moment the class .sound1 is added to the body, the background is yellow */
+.sound1 {
+  -webkit-animation: background-blink 1s;  /* Safari 4+ */
+  -moz-animation: background-blink 1s;  /* Fx 5+ */
+  -o-animation: background-blink 1s;  /* Opera 12+ */
+  animation: background-blink 1s;  /* IE 10+, Fx 29+ */
+}
+
+@-webkit-keyframes background-blink {
+	0%, 49%, 99%, 100% {
+    	background-color: #e50000;
+	}
+	
+	49%, 50%, 99% {
+        background-color: black;
+	}
+}
+
+
+
 /* **********************************************
 The first paragraph, with extended timing for 
 	all siblings. Basically what it does is that
@@ -54,6 +92,7 @@ You probably want to change the styling.
 ********************************************** */
 .p0 span {
 	opacity: 0;
+	font-size: 1.8;
 }
 
 .p0.on span:first-of-type {
@@ -121,20 +160,19 @@ You probably want to change the styling.
 
 /* p1 */
 
-.p1 span {
+/*.p1 span {
 	opacity: 0;
 }
 
 .p1.on span:first-of-type {
 	opacity: 1;
 	transition: 0s;
-	/*font-weight: 200;*/
 }
 .p1.on span:nth-of-type(2) {
 	opacity: 1;
 	transition: 0.5s .6s;
 }
-
+*/
 
 /* p2 */
 
@@ -2125,7 +2163,3 @@ You probably want to change the styling.
 	opacity: 1;
 	transition: 0.5s 1.2s;
 }
-
-
-
-
