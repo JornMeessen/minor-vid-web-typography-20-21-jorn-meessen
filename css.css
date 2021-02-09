@@ -16,13 +16,14 @@ Feel free to adjust the defaults to your needs.
 #closed-captions p {
 	opacity: 0;
 	transition: .05s;
-	width: fit-content;
+	width: -webkit-fill-available;
 	position: absolute;
 	color: white;
 	font-size: 1.3em;
 	color: black;
 	padding: 0.5em;
-	/*margin: 3em 5em 0em;*/
+	text-align: center;
+	margin: 10px 25%;
 }
 
 #closed-captions .on {
@@ -38,8 +39,8 @@ Feel free to adjust the defaults to your needs.
 .voice1 {
 	font-family: "Brenner Mono"; 
 	font-style: normal;
-	text-align: right;
-	margin: 3em 0em 0em 27em;
+	/*text-align: right;
+	margin: 3em 0em 0em 27em;*/
 }
 
 .voice1.on {
@@ -49,17 +50,17 @@ Feel free to adjust the defaults to your needs.
 
 .voice2 {
 	font-family: Brenner Sans;
-	margin: 3em 0em 0em 11em;
+/*	margin: 3em 0em 0em 11em;*/
 }
 
 .voice2.on {
 	color: blue !important;
-	font-weight: 800;
+	/*font-weight: 800;*/
 }
 
 .voice3 {
 	font-family: Brenner sans condensed;
-	margin: 3em 0em 0em 40em;
+/*	margin: 3em 0em 0em 40em;*/
 }
 
 .voice3.on {
@@ -69,7 +70,7 @@ Feel free to adjust the defaults to your needs.
 
 .voice4 {
 	font-family: Brenner sans;
-	margin: 3em 0em 0em 40em;
+	/*margin: 3em 0em 0em 40em;*/
 }
 
 .voice4.on {
@@ -79,7 +80,7 @@ Feel free to adjust the defaults to your needs.
 
 .voice5 {
 	font-family: Brenner sans;
-	margin: 3em 0em 0em 20em;
+	/*margin: 3em 0em 0em 20em;*/
 }
 
 .voice5.on {
@@ -107,7 +108,64 @@ Sounds.
 	a sound starts.
 *********************************************  */
 
-/* The moment the class .sound1 is added to the body, the background is yellow */
+:before{
+    transition: .05s;
+    position: absolute;
+    color: black;
+    font-size: 1em;
+    padding: 0.5em;
+    margin: 36em 35% 0em;
+    background-color: white;
+    display: block;
+    width: 30%;
+    text-align: center;
+}
+
+.sound0:before{
+	content: "(spannend achtergrond geluid)";
+}
+
+.sound1:before{
+	content: "(Alarm, enkel geluid)";
+}
+
+.sound2:before{
+	content: "(Korte politie sirene)";
+}
+
+.sound3:before{
+	content: "(Hoofdalarm)";
+}
+
+.sound4:before{
+	content: "(Hoofdalarm)";
+}
+
+.sound5:before{
+	content: "(Hoofdalarm, iets zachter)";
+}
+
+.sound6:before{
+	content: "(Hoofdalarm, iets zachter)";
+}
+
+.sound7:before{
+	content: "(Hoofdalarm)";
+}
+
+.sound8:before{
+	content: "(Hoofdalarm)";
+}
+
+.sound9:before{
+	content: "(naar hoog piep geluid - spanning opbouwen)";
+}
+
+.sound10:before{
+	content: "(achtergrond muziek - spannende muziek)";
+}
+
+
 .sound1 {
   -webkit-animation: background-blink 1s;  /* Safari 4+ */
   -moz-animation: background-blink 1s;  /* Fx 5+ */
