@@ -9,7 +9,7 @@ Feel free to adjust the defaults to your needs.
 #closed-captions{
     /*background-color: aqua;*/
     width: 100%;
-    height: 280px;
+    height: auto;
     position: absolute;
 }
 
@@ -39,22 +39,22 @@ Feel free to adjust the defaults to your needs.
 	font-family: "Brenner Mono"; 
 	font-style: normal;
 	text-align: right;
-	margin: 3em 0em 0em 53em;
+	margin: 3em 0em 0em 27em;
 }
 
 .voice1.on {
-	color: red !important;
-	font-weight: 800;
+	color: green !important;
+	/*font-weight: 800;*/
 }
 
 .voice2 {
 	font-family: Brenner Sans;
-	margin: 3em 0em 0em 20em;
+	margin: 3em 0em 0em 11em;
 }
 
 .voice2.on {
 	color: blue !important;
-	font-weight: 800;
+	/*font-weight: 800;*/
 }
 
 .voice3 {
@@ -63,8 +63,8 @@ Feel free to adjust the defaults to your needs.
 }
 
 .voice3.on {
-	color: green !important;
-	font-weight: 800;
+	color: red !important;
+	/*font-weight: 800;*/
 }
 
 .voice4 {
@@ -74,7 +74,7 @@ Feel free to adjust the defaults to your needs.
 
 .voice4.on {
 	color: orange !important;
-	font-weight: 800;
+	/*font-weight: 800;*/
 }
 
 .voice5 {
@@ -83,8 +83,8 @@ Feel free to adjust the defaults to your needs.
 }
 
 .voice5.on {
-	color: blue !important;
-	font-weight: 800;
+	color: green !important;
+	/*font-weight: 800;*/
 }
 
 
@@ -129,6 +129,41 @@ Sounds.
 }
 
 
+/* The moment the class .sound1 is added to the body, the background is yellow */
+.sound2 {
+  -webkit-animation: background-sound-two 1s;  /* Safari 4+ */
+  -moz-animation: background-sound-two 1s;  /* Fx 5+ */
+  -o-animation: background-sound-two 1s;  /* Opera 12+ */
+  animation: background-sound-two 1s;  /* IE 10+, Fx 29+ */
+}
+
+@-webkit-keyframes background-sound-two {
+	0%, 49%, 99%, 100% {
+    	background-color: #e50000;
+	}
+	
+	49%, 50%, 99% {
+        background-color: black;
+	}
+}
+
+.sound8{
+	background-color: rgb(150, 160, 135);
+	transition: 0.5s .5s;
+}
+
+.sound9 iframe{
+	width: 720px;
+	height: 480px;
+	/*transition: 20s 0s;*/
+}
+
+.sound10 iframe{
+	width: 750px;
+	height: 500px;
+	/*transition: 55s 2s;*/
+}
+
 
 /* **********************************************
 The first paragraph, with extended timing for 
@@ -141,6 +176,7 @@ You probably want to change the styling.
 .p0 span {
 	opacity: 0.7;
 	font-size: 1.8;
+	font-style: Italic;
 }
 
 .p0.on span:first-of-type {
@@ -199,6 +235,7 @@ You probably want to change the styling.
 
 .p1 span {
 	opacity: 0.7;
+	font-style: Italic;
 }
 
 .p1.on span:first-of-type {
@@ -215,6 +252,7 @@ You probably want to change the styling.
 
 .p2 span {
 	opacity: 0.7;
+	font-style: Italic;
 }
 
 .p2.on span:first-of-type {
@@ -237,6 +275,7 @@ You probably want to change the styling.
 
 .p3 span {
 	opacity: 0.7;
+	font-style: Italic;
 }
 
 .p3.on span:first-of-type {
@@ -276,6 +315,7 @@ You probably want to change the styling.
 
 .p4 span {
 	opacity: 0.7;
+	font-style: Italic;
 }
 
 .p4.on span:first-of-type {
@@ -364,11 +404,14 @@ You probably want to change the styling.
 .p6.on span:first-of-type {
 	opacity: 1;
 	transition: 0s;
+	font-size: 2em;
 }
 
 .p6.on span:nth-of-type(2) {
 	opacity: 1;
-	transition: 0.5s .4s;
+	transition: 0s;
+	transition: 0s .2s; /*.4s;*/
+	font-size: 2em;
 }
 
 .p6.on span:nth-of-type(3) {
@@ -1333,6 +1376,7 @@ You probably want to change the styling.
 
 .p44 span {
 	opacity: 0.7;
+	font-style: Italic;
 }
 
 .p44.on span:first-of-type {
@@ -1350,6 +1394,7 @@ You probably want to change the styling.
 
 .p45 span {
 	opacity: 0.7;
+	font-style: Italic;
 }
 
 .p45.on span:first-of-type {
@@ -1367,6 +1412,7 @@ You probably want to change the styling.
 
 .p46 span {
 	opacity: 0.7;
+	font-style: Italic;
 }
 
 .p46.on span:first-of-type {
@@ -1437,6 +1483,7 @@ You probably want to change the styling.
 
 .p49 span {
 	opacity: 0.7;
+	font-style: Italic;
 }
 
 .p49.on span:first-of-type {
@@ -1506,6 +1553,7 @@ You probably want to change the styling.
 
 .p52 span {
 	opacity: 0.7;
+	font-style: Italic;
 }
 
 .p52.on span:first-of-type {
@@ -1598,6 +1646,7 @@ You probably want to change the styling.
 
 .p54 span {
 	opacity: 0.7;
+	font-style: Italic;
 }
 
 .p54.on span:first-of-type {
@@ -1664,6 +1713,7 @@ You probably want to change the styling.
 
 .p55 span {
 	opacity: 0.7;
+	font-style: Italic;
 }
 
 .p55.on span:first-of-type {
@@ -1686,6 +1736,7 @@ You probably want to change the styling.
 
 .p57 span {
 	opacity: 0.7;
+	font-style: Italic;
 }
 
 .p57.on span:first-of-type {
@@ -1707,6 +1758,7 @@ You probably want to change the styling.
 
 .p58 span {
 	opacity: 0.7;
+	font-style: Italic;
 }
 
 .p58.on span:first-of-type {
@@ -1728,6 +1780,7 @@ You probably want to change the styling.
 
 .p59 span {
 	opacity: 0.7;
+	font-style: Italic;
 }
 
 .p59.on span:first-of-type {
@@ -1739,6 +1792,7 @@ You probably want to change the styling.
 
 .p60 span {
 	opacity: 0.7;
+	font-style: Italic;
 }
 
 .p60.on span:first-of-type {
@@ -1750,6 +1804,7 @@ You probably want to change the styling.
 
 .p61 span {
 	opacity: 0.7;
+	font-style: Italic;
 }
 
 .p61.on span:first-of-type {
@@ -1801,6 +1856,7 @@ You probably want to change the styling.
 
 .p62 span {
 	opacity: 0.7;
+	font-style: Italic;
 }
 
 .p62.on span:first-of-type {
@@ -1920,6 +1976,7 @@ You probably want to change the styling.
 
 .p68 span {
 	opacity: 0.7;
+	font-style: Italic;	
 }
 
 .p68.on span:first-of-type {
@@ -1931,6 +1988,7 @@ You probably want to change the styling.
 
 .p69 span {
 	opacity: 0.7;
+	font-style: Italic;
 }
 
 .p69.on span:first-of-type {
@@ -1952,6 +2010,7 @@ You probably want to change the styling.
 
 .p70 span {
 	opacity: 0.7;
+	font-style: Italic;
 }
 
 .p70.on span:first-of-type {
@@ -1973,6 +2032,7 @@ You probably want to change the styling.
 
 .p71 span {
 	opacity: 0.7;
+	font-style: Italic;
 }
 
 .p71.on span:first-of-type {
@@ -2018,6 +2078,7 @@ You probably want to change the styling.
 
 .p73 span {
 	opacity: 0.7;
+	font-style: Italic;
 }
 
 .p73.on span:first-of-type {
@@ -2039,6 +2100,7 @@ You probably want to change the styling.
 
 .p74 span {
 	opacity: 0.7;
+	font-style: Italic;
 }
 
 .p74.on span:first-of-type {
@@ -2060,6 +2122,7 @@ You probably want to change the styling.
 
 .p75 span {
 	opacity: 0.7;
+	font-style: Italic;
 }
 
 .p75.on span:first-of-type {
@@ -2133,6 +2196,7 @@ You probably want to change the styling.
 
 .p78 span {
 	opacity: 0.7;
+	font-style: Italic;
 }
 
 .p78.on span:first-of-type {
@@ -2169,6 +2233,7 @@ You probably want to change the styling.
 
 .p79 span {
 	opacity: 0.7;
+	font-style: Italic;
 }
 
 .p79.on span:first-of-type {
