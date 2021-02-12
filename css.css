@@ -124,46 +124,112 @@ Sounds.
 
 .sound0:before{
 	content: "(spannend achtergrond geluid)";
+	animation: 2s sound0;
+	animation-delay: 0s;
+}
+
+@keyframes sound0{
+ from{	opacity:0;	}	to{	opacity:1;	}
 }
 
 .sound1:before{
 	content: "(Alarm, enkel geluid)";
+	animation: 2s sound1 forwards;
+	animation-delay: 1s;
+}
+
+@keyframes sound1{
+ from{	opacity:1;	}	to{	opacity:0;	}
 }
 
 .sound2:before{
 	content: "(Korte politie sirene)";
+	animation: 2s sound2 forwards;
+	animation-delay: 1s;
+}
+
+@keyframes sound2{
+ from{   opacity:1;	}	to{	opacity:0;	}
 }
 
 .sound3:before{
-	content: "(Hoofdalarm)";
+	content: "(Machine geluid)";
+	animation: 2s sound3 forwards;
+	animation-delay: 1s;
+}
+
+@keyframes sound3{
+ from{	opacity:1;	}	to{	opacity:0;	}
 }
 
 .sound4:before{
-	content: "(Hoofdalarm)";
+	content: "(Hoofdalarm, Hoog dof alarm)";
+	animation: 2s sound4 forwards;
+	animation-delay: 1s;
+}
+
+@keyframes sound4{
+ from{	opacity:1;	}	to{	opacity:0;	}
 }
 
 .sound5:before{
 	content: "(Hoofdalarm, iets zachter)";
+	animation: 2s sound5 forwards;
+	animation-delay: 1s;
+}
+
+@keyframes sound5{
+ from{	opacity:1;	}	to{	opacity:0;	}
 }
 
 .sound6:before{
-	content: "(Hoofdalarm, iets zachter)";
+	content: "(Hoofdalarm, hoog blijvende pieptoon)";
+	animation: 2s sound6 forwards;
+	animation-delay: 7s;
+}
+
+@keyframes sound6{
+ from{	opacity:1;	}	to{	opacity:0;	}
 }
 
 .sound7:before{
-	content: "(Hoofdalarm)";
+	content: "(Machine geluid)";
+	animation: 2s sound7 forwards;
+	animation-delay: 5s;
+}
+
+@keyframes sound7{
+ from{	opacity:1;	}	to{	opacity:0;	}
 }
 
 .sound8:before{
-	content: "(Hoofdalarm)";
+	content: "(Hoofdalarm, Hoog dof alarm)";
+	animation: 2s sound8 forwards;
+	animation-delay: 1s;
+}
+
+@keyframes sound8{
+ from{	opacity:1;	}	to{	opacity:0;	}
 }
 
 .sound9:before{
 	content: "(naar hoog piep geluid - spanning opbouwen)";
+	animation: 0.5s sound9 forwards;
+	animation-delay: 41s;
+}
+
+@keyframes sound9{
+ from{	opacity:1;	} 	to{	opacity:0;	}
 }
 
 .sound10:before{
 	content: "(achtergrond muziek - spannende muziek)";
+	animation: 0.5s sound10 forwards;
+	animation-delay: 43.5s;
+}
+
+@keyframes sound10{
+ from{	opacity:1;	}	to{	opacity:0;		}
 }
 
 
@@ -174,7 +240,7 @@ Sounds.
   animation: background-blink 1s;  /* IE 10+, Fx 29+ */
 }
 
-@-webkit-keyframes background-blink {
+@keyframes background-blink {
 	0%, 49%, 99%, 100% {
     	background-color: #e50000;
 	}
@@ -193,7 +259,7 @@ Sounds.
   animation: background-sound-two 1s;  /* IE 10+, Fx 29+ */
 }
 
-@-webkit-keyframes background-sound-two {
+@keyframes background-sound-two {
 	0%, 49%, 99%, 100% {
     	background-color: #e50000;
 	}
@@ -203,41 +269,60 @@ Sounds.
 	}
 }
 
-.sound8{
+/*.sound8{
 	background-color: rgb(150, 160, 135);
 	transition: 0.5s .5s;
-}
+}*/
 
 .sound9 iframe{
 	width: 720px;
 	height: 480px;
-	transition: 30s 0s;
+	transition: 31s 10s;
+	transition-timing-function: ease-in;
 }
 
 .sound9{
-  animation: sound-nine 6s 6 forwards; /*infinite*/
+	animation-name: sound-nine;
+  	animation-duration: 4s;
+  	animation-delay: 14s;
+  	animation-iteration-count: 7;
+  	animation-timing-function: ease-in;
 }
 
 @keyframes sound-nine {
-  from {background-color: rgb(150, 160, 135);}
-  to {background-color: rgb(152, 141, 118);}
+
+	50% {
+    	background-color: #e6e6e6;
+	}
+	
+	100% {
+        background-color: black;
+	}
+}
+
+
+/* The animation code */
+@keyframes example {
+  0%   {background-color: black; left:0px; top:0px;}
+  25%  {background-color: #38020b; left:200px; top:0px;}
+  50%  {background-color: #6e0214; left:200px; top:200px;}
+  75%  {background-color: #38020b; left:0px; top:200px;}
+  100% {background-color: black; left:0px; top:0px;}
+}
+
+/* The element to apply the animation to */
+.sound10 {
+  animation-name: example;
+  animation-duration: 10s;
+  animation-delay: 1s;
+  animation-iteration-count:  4;
+  animation-timing-function: ease-in;
 }
 
 .sound10 iframe{
-	width: 100%;
-	height: 500px;
-	transition: 50s 2s;
+	width: 720px;
+	height: 480px;
 }
-
-.sound10{
-  animation: sound-ten 4s 2s 10 forwards; /*infinite*/
-}
-
-@keyframes sound-ten {
-  from {background-color: rgb(150, 160, 135);}
-  to {background-color: black;}
-}
-
 
 /* **********************************************
 The first paragraph, with extended timing for 
