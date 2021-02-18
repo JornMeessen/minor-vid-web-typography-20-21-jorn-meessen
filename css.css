@@ -50,6 +50,7 @@ Feel free to adjust the defaults to your needs.
 
 .voice2 {
 	font-family: Brenner Sans;
+	font-weight: 400;
 /*	margin: 3em 0em 0em 11em;*/
 }
 
@@ -59,7 +60,8 @@ Feel free to adjust the defaults to your needs.
 }
 
 .voice3 {
-	font-family: Brenner sans condensed;
+	font-family: Brenner sans;
+	font-weight: 800;
 /*	margin: 3em 0em 0em 40em;*/
 }
 
@@ -79,7 +81,10 @@ Feel free to adjust the defaults to your needs.
 }
 
 .voice5 {
-	font-family: Brenner Mono;
+	/*font-family: Brenner Mono;*/
+	/*font-family: "Brenner Display Black";*/
+	font-family: "Brenner Slab";
+	font-weight: 600;
 	/*margin: 3em 0em 0em 20em;*/
 }
 
@@ -98,7 +103,6 @@ iframe{
 
 body{
 	background-color: black;
-	width: 100%;
 	margin: 0px;
 }
 
@@ -378,37 +382,58 @@ Sounds.
 .sound9 iframe{
 	width: 720px;
 	height: 480px;
-	transition: 31s 10s;
+	transition: 29s 12s; /*31s 10s		27s 14s*/
 	transition-timing-function: ease-in;
 }
 
 .sound9{
 	animation-name: sound-nine;
-  	animation-duration: 4s;
-  	animation-delay: 14s;
-  	animation-iteration-count: 7;
+  	animation-duration: 30s;
+  	animation-delay: 12s /*14s*/;
+  	/*animation-iteration-count: 7;*/
   	animation-timing-function: ease-in;
+
+  	width: 100%;
+	height: 41.5em;
 }
 
 @keyframes sound-nine {
-
-	50% {
-    	background-color: #e6e6e6;
-	}
-	
-	100% {
-        background-color: black;
-	}
+	0% {	background-color: #e6e6e6;	}	
+	1% {	background-color: black;	}
+/* 29 */
+	30% {	background-color: black;	}	
+	31% {	background-color: #e6e6e6;	}
+	32% {	background-color: black;	}
+/* 24 */
+	56% {	background-color: black;	}	
+	57% {	background-color: #e6e6e6;	}
+	58% {	background-color: black;	}	
+/* 12 */
+	70% {	background-color: black;	}	
+	71% {	background-color: #e6e6e6;	}
+	72% {	background-color: black;	}	
+/* 10 */
+	82% {	background-color: black;	}	
+	83% {	background-color: #e6e6e6;	}
+	84% {	background-color: black;	}	
+/* 6 */
+	90% {	background-color: black;	}	
+	91% {	background-color: #e6e6e6;	}
+	92% {	background-color: black;	}	
+/* 4 */
+	96% {	background-color: black;	}	
+	97% {	background-color: #e6e6e6;	}
+	98% {	background-color: black;	}		
 }
 
 
 /* The animation code */
 @keyframes example {
-  0%   {background-color: black; left:0px; top:0px;}
-  25%  {background-color: #38020b; left:200px; top:0px;}
-  50%  {background-color: #6e0214; left:200px; top:200px;}
-  75%  {background-color: #38020b; left:0px; top:200px;}
-  100% {background-color: black; left:0px; top:0px;}
+   0%   {background: black; /*left:0px; top:0px;*/}
+  25%  {background: #38020b; /*left:200px; top:0px;*/}
+  50%  {background: #6e0214; /*left:200px; top:200px;*/}
+  75%  {background: #38020b; /*left:0px; top:200px;*/}
+  100% {background: black; /*left:0px; top:0px;*/}
 }
 
 /* The element to apply the animation to */
@@ -1108,6 +1133,7 @@ You probably want to change the styling.
 
 .p24 span {
 	opacity: 0.7;
+	font-weight: 600;
 }
 
 .p24.on span:first-of-type {
@@ -1188,6 +1214,7 @@ You probably want to change the styling.
 
 .p27 span {
 	opacity: 0.7;
+	font-weight: 600;
 }
 
 .p27.on span:first-of-type {
@@ -1235,6 +1262,7 @@ You probably want to change the styling.
 
 .p28 span {
 	opacity: 0.7;
+	font-weight: 600;
 }
 
 .p28.on span:first-of-type {
@@ -1259,6 +1287,7 @@ You probably want to change the styling.
 
 .p30 span {
 	opacity: 0.7;
+	font-weight: 600;
 }
 
 .p30.on span:first-of-type {
@@ -1308,6 +1337,7 @@ You probably want to change the styling.
 
 .p32 span {
 	opacity: 0.7;
+	font-weight: 600;
 }
 
 .p32.on span:first-of-type {
@@ -1364,6 +1394,7 @@ You probably want to change the styling.
 
 .p33 span {
 	opacity: 0.7;
+	font-weight: 600;
 }
 
 .p33.on span:first-of-type {
@@ -1386,6 +1417,7 @@ You probably want to change the styling.
 
 .p35 span {
 	opacity: 0.7;
+	font-weight: 600;
 }
 
 .p35.on span:first-of-type {
@@ -1448,6 +1480,7 @@ You probably want to change the styling.
 
 .p36 span {
 	opacity: 0.7;
+	font-weight: 600;
 }
 
 .p36.on span:first-of-type {
@@ -1471,6 +1504,7 @@ You probably want to change the styling.
 
 .p38 span {
 	opacity: 0.7;
+	font-weight: 600;
 }
 
 .p38.on span:first-of-type {
@@ -1514,6 +1548,7 @@ You probably want to change the styling.
 
 .p40 span {
 	opacity: 0.7;
+	font-weight: 600;
 }
 
 .p40.on span:first-of-type {
@@ -1593,6 +1628,7 @@ You probably want to change the styling.
 
 .p42 span {
 	opacity: 0.7;
+	font-size: 1.35em;
 }
 
 .p42.on span:first-of-type {
@@ -1615,6 +1651,7 @@ You probably want to change the styling.
 
 .p43 span {
 	opacity: 0.7;
+	font-size: 1.6em;
 }
 
 .p43.on span:first-of-type {
