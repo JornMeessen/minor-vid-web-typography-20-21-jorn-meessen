@@ -1,2 +1,23 @@
-# minor-vid-web-typography-20-21-jorn-meessen
-Uitwerkingen van het vak Web typography tijdens de minor VID
+##Uitwerkingen Jorn Meessen
+Web Typography, 2020/2021
+
+
+##Visuele onderbouwing
+#Typografie
+
+
+#Kleurkeuze
+
+
+#Vlakverdeling
+
+
+##De exclusive design principles
+
+# study situation, ignore, conventions, prioritise identity add nonsense
+
+##Feedback
+
+#Testen met Darice
+
+#Feedbacksessies Vasilis  
