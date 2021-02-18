@@ -71,7 +71,9 @@ Feel free to adjust the defaults to your needs.
 }
 
 .voice4 {
-	font-family: Brenner sans;
+	font-family: "Brenner Script";
+	font-weight: 400;
+	/*font-family: Brenner sans;*/
 	/*margin: 3em 0em 0em 40em;*/
 }
 
