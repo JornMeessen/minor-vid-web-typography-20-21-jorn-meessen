@@ -2,7 +2,7 @@
 Web Typography, minor Visual Interface Design 2020/2021
 
 
-# Visuele onderbouwing
+## Visuele onderbouwing
 ### Typografie
 
 
@@ -12,12 +12,12 @@ Web Typography, minor Visual Interface Design 2020/2021
 ### Vlakverdeling
 
 
-# De exclusive design principles
+## De exclusive design principles
 
-## study situation, ignore, conventions, prioritise identity add nonsense
+### study situation, ignore, conventions, prioritise identity add nonsense
 
-# Feedback
+## Feedback
 
-## Testen met Darice
+### Testen met Darice
 
-## Feedbacksessies Vasilis  
+### Feedbacksessies Vasilis  
