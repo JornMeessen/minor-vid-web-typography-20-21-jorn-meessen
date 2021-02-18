@@ -5,6 +5,21 @@ Show them when they receive the class 'on'
 Hide them when they receive the class 'off'
 Feel free to adjust the defaults to your needs.
 ********************************************** */
+.block{
+	height: 272px;
+	width: 100%;
+	background-color: black;
+	opacity: 0;
+	animation: 0.5s block forwards;
+	position: absolute;
+	z-index: -1;
+	animation-delay: 50s;
+	top: 392px;
+}
+
+@keyframes block{
+ from{   opacity:0;	}	to{	opacity:1;	}
+}
 
 #closed-captions{
     /*background-color: aqua;*/
@@ -61,7 +76,7 @@ Feel free to adjust the defaults to your needs.
 
 .voice3 {
 	font-family: Brenner sans;
-	font-weight: 800;
+	font-weight: 400;
 /*	margin: 3em 0em 0em 40em;*/
 }
 
@@ -1135,7 +1150,6 @@ You probably want to change the styling.
 
 .p24 span {
 	opacity: 0.7;
-	font-weight: 600;
 }
 
 .p24.on span:first-of-type {
@@ -1216,7 +1230,6 @@ You probably want to change the styling.
 
 .p27 span {
 	opacity: 0.7;
-	font-weight: 600;
 }
 
 .p27.on span:first-of-type {
@@ -1264,7 +1277,6 @@ You probably want to change the styling.
 
 .p28 span {
 	opacity: 0.7;
-	font-weight: 600;
 }
 
 .p28.on span:first-of-type {
@@ -1289,7 +1301,6 @@ You probably want to change the styling.
 
 .p30 span {
 	opacity: 0.7;
-	font-weight: 600;
 }
 
 .p30.on span:first-of-type {
@@ -1339,7 +1350,6 @@ You probably want to change the styling.
 
 .p32 span {
 	opacity: 0.7;
-	font-weight: 600;
 }
 
 .p32.on span:first-of-type {
@@ -1396,7 +1406,6 @@ You probably want to change the styling.
 
 .p33 span {
 	opacity: 0.7;
-	font-weight: 600;
 }
 
 .p33.on span:first-of-type {
@@ -1419,7 +1428,6 @@ You probably want to change the styling.
 
 .p35 span {
 	opacity: 0.7;
-	font-weight: 600;
 }
 
 .p35.on span:first-of-type {
@@ -1482,7 +1490,6 @@ You probably want to change the styling.
 
 .p36 span {
 	opacity: 0.7;
-	font-weight: 600;
 }
 
 .p36.on span:first-of-type {
@@ -1506,7 +1513,6 @@ You probably want to change the styling.
 
 .p38 span {
 	opacity: 0.7;
-	font-weight: 600;
 }
 
 .p38.on span:first-of-type {
@@ -1550,7 +1556,6 @@ You probably want to change the styling.
 
 .p40 span {
 	opacity: 0.7;
-	font-weight: 600;
 }
 
 .p40.on span:first-of-type {
