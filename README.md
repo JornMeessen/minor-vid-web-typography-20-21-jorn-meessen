@@ -3,13 +3,13 @@ Web Typography, minor Visual Interface Design 2020/2021
 
 
 # Visuele onderbouwing
-## Typografie
+### Typografie
 
 
-## Kleurkeuze
+### Kleurkeuze
 
 
-## Vlakverdeling
+### Vlakverdeling
 
 
 # De exclusive design principles
