@@ -13,7 +13,7 @@ Feel free to adjust the defaults to your needs.
 	animation: 0.5s block forwards;
 	position: absolute;
 	z-index: -1;
-	animation-delay: 52s;
+	animation-delay: 45s;
 	top: 392px;
 }
 
@@ -101,7 +101,7 @@ Feel free to adjust the defaults to your needs.
 	/*font-family: Brenner Mono;*/
 	/*font-family: "Brenner Display Black";*/
 	font-family: "Brenner Slab";
-	font-weight: 600;
+	font-weight: 400;
 	/*margin: 3em 0em 0em 20em;*/
 }
 
@@ -399,7 +399,7 @@ Sounds.
 .sound9 iframe{
 	width: 720px;
 	height: 480px;
-	transition: 29s 12s; /*31s 10s		27s 14s*/
+	transition: 25s	14s; /*31s 10s		27s 14s*/
 	transition-timing-function: ease-in;
 }
 
@@ -1635,7 +1635,7 @@ You probably want to change the styling.
 
 .p42 span {
 	opacity: 0.7;
-	font-size: 1.35em;
+	font-weight: 600;
 }
 
 .p42.on span:first-of-type {
@@ -1658,7 +1658,7 @@ You probably want to change the styling.
 
 .p43 span {
 	opacity: 0.7;
-	font-size: 1.6em;
+	font-weight: 800;
 }
 
 .p43.on span:first-of-type {

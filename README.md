@@ -3,7 +3,7 @@ Web Typography, minor Visual Interface Design 2020/2021
 
 Link naar screenopname van het product. 
 (De screenopname staat verborgen op YouTube, waardoor je alleen via deze link het kunt zien)
-https://youtu.be/Z17XMNbGEy8
+https://youtu.be/YuhaNcM8-ZM
 
 ## Visuele onderbouwing
 
@@ -11,17 +11,22 @@ https://youtu.be/Z17XMNbGEy8
 
 Bij de typografie heb ik gekozen voor het Brenner font, omdat dit font mij de mogelijkheid gaf om personages een font te geven die bij ze past. Een font kan namelijk vertellen wat voor type persoon het is en hoe hij zich gedraagt. Ik heb gekozen om het personage van de intercom/robot (voice 1) het Brenner Mono font mee te geven. Zeker aan het begin van het fragment, en dat loopt door tot ongeveer het begin van de tweede overhoring, heeft deze stem een robotachtige sfeer om zicht heen. Het is heel strak en het voelt opdreunend. Bij de tweede overhoring koelt deze stemming een beetje en voel je meer warmte in zijn stem. Er begint wat menselijke trekjes te ontstaan. Hierdoor past het Brenner Slab nu veel beter bij de personage. Slab is een font dat tussen script en sans in staat. Het is niet te 'computer' achter en ook nog niet te 'menselijk'. Het ziet er een beetje uit als een chocoladeletter.
 
-De hoofdpersoon (voice2) is heel rustig onder de situatie. Hij laat het allemaal een beetje over zich heel komen. Hij heeft menselijke eigenschappen. Ik vond dat het font Brenner Sans goed bij hem paste. Het is een rond en schreefloos font. Mensenzijn levende wezens die gevoel, empathie en gedrag uiten. Daar past geen hard font bij. De hoofpersoon is ook zacht in zijn omgang. Waardoor een serif lettertype met veel scherpe hoeken, bots bij zij personage. Ik kies bij de herhaling van 'within cells interlinked' ervoor om de tekst steeds groter te maken. Dit doe ik omdat hij steeds meer de nadruk legt op die zin. De spannings loopt tot het hoogtepunt.
+De hoofdpersoon (voice2) is heel rustig onder de situatie. Hij laat het allemaal een beetje over zich heel komen. Hij heeft menselijke eigenschappen. Ik vond dat het font Brenner Sans goed bij hem paste. Het is een rond en schreefloos font. Mensenzijn levende wezens die gevoel, empathie en gedrag uiten. Daar past geen hard font bij. De hoofpersoon is ook zacht in zijn omgang. Waardoor een serif lettertype met veel scherpe hoeken, bots bij zij personage. Ik kies bij de herhaling van 'within cells interlinked' ervoor om de tekst steeds bolder te maken. Dit doe ik omdat hij steeds meer de nadruk legt op die zin. De spannings loopt tot het hoogtepunt.
 
 De langslopende man (vocie3). Heeft niet heel veel tekst. Hij is gehaast en loop snel langs. Hij zegt wel iets belangrijkst namelijk Fuck off, skin-job! Hij is er duidelijk niet mee eens dat de hoofdpersoon hier is. Ik heb voor hem het font Brenner Sans Condensed gekozen. Dit is een font wat in elkaar gedrukt lijkt. Het voelt daardoor een beetje gehaast geïrriteerd. Dat past dus perfect bij dit personage. Om de intonatie van het woord Fuck-off goed over te brengen heb ik het bolder gemaakt dan de rest. Ook heb ik ervoor gekozen om hem dezelfde grote te geven als de rest van de tekst. Dit omdat de persoon het zacht en krachtig zegt.
 
 Man van voice 4. Een betere beschrijving is er misschien niet. Hij is volgens mij een echt persoon die de hoofdpersoon laat weten dat het klaar is. Hier zit iets vrolijks in (misschien wel op iets cynische manier). Bij een vrolijk iets vindt het font Brenner Script goed passen. Een sierlijk en vrolijk font wat misschien iets te dik hier wordt aangezet. Dat past denk ik wel op de manier waarom de spreken deze boodschap zegt.
 
-### Kleurkeuze en vlakverdeling
+Voor de teksten met geluiden heb ik Brenner sans gebruikt. Hier wilde ik een neutraal font keizen dat goed leesbaar is.
 
-//De kleurkeuzes en de vlakverdeling zijn
-tot in detail onderbouwd dragen goed
-bij aan de opdracht
+### Kleurkeuze en vlakverdeling
+Ik heb ervoor gekozen om het beeld op te delen in twee delen. Er is een bovenkant (waarin het filmpje zit) en een onderkant (waar de tekst in zit). Dit is gekomen door dat ik gekozen heb om het filmpje full with te tonen aan het begin (dit heb ik gedaan om de sfeer van dat moment in de hele ruimte te visualiseren). Hierdoor ontstaan er twee horizontale vlakken. Om consistentie in het fragment te krijgen heb ik ervoor gekozen deze verhouding door het hele fragment te doen. In het tweede deel van het fragment ontstaan er luiken een weerzijde van het filmpje (door dat het filmpje kleiner wordt). Dit heb ik gedaan omdat een irritant geluid gevisualiseerd kan worden door een geluid dat steeds minder goed te grijpen is, dus kleiner. Hierin worden lichteffecten getoond. De kleur van de lichteffecten zijn wit, dit symboliseerde de spanning die opbouw. De keuze voor deze oplossing ligt bij het feit dat er een langzame opbouw in de spanning zit, door de luiken steeds verder open te zetten wordt de spanning steeds groter. 
+
+Bij de tweede ondervraging gebruik ik de luiken weer. Nu staan ze helemaal open en er wordt een ademhaling/hartbeat gevisualiseerd. In deze scene zit een geleidend ritme dat meegaat op de ademhaling/hartbeat. De kleur van deze hartbeat is donkerrood. Donderrood staat voor bloed en liefde, beiden komen ze samen in de hartbeat. 
+
+Ik heb ervoor gekozen om de conventie van zwarte balken met witte teksten in de close caption om te draaien. Hierdoor krijg ik als ontwerper meer mogelijkheden om met kleur te spelen in de teksten. Met de kleuren van de tekst heb ik mij laten leiden door de primaire en secundaire kleuren. Ik wilde kleuren kiezen die goed leesbaar zijn (onderzoek gedaan op internet) en die ver uit elkaar liggen. De witte balk met closed caption staat gecentreerd in het scherm, net als de video en de balk met teksten over de geluiden. Dit heb ik gedaan omdat om de video heen de effecten wil creëren, zoals de luiken aan weerzijde.
+
+Ik heb ervoor gekozen om alle geluiden in het fragment te visualiseren met een bepaalde kleur. Ik heb bijvoorbeeld bij een machine geluid gekozen voor grijs. Grijs is de kleur van staal en wordt veel in machinebouw gebruikt. Een alarm heb ik gevisualiseerd met een rode flits en een politiesirene met een blauwe flits. Dit zijn herkenbare lichten voor mensen waardoor ze snel de associatie maken met een alarm of sirene. Het hoofdalarm heb ik een beige kleur gegeven. De ruimte waarin het afspeelt is ook een beetje deze kleur en past goed bij de sfeer van de film. Het hoofdalarm wordt op een gegeven moment een hoge pieptoon. Dit visualiseer ik door de kleur steeds feller te laten worden. In mijn associatie is hoe lichter een kleur hoe feller, dus ook harder of scheller het geluid is.
 
 ## Feedback
 
